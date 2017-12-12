@@ -552,6 +552,25 @@ a:hover {
   }
 }
 
+.list_news .more {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  text-align: center;
+}
+@media screen and (min-width:768px) and ( max-width:1024px) {
+    /*　for iPad 　*/
+  .list_news .txt {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+@media screen and (min-width:1024px) {
+    /*　for PC　*/
+  .list_news .txt {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
 
 /** Member Section **/
 .member {
